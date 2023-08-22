@@ -4,7 +4,7 @@
  * _strlen - returns the length of a string
  * @s: the string whose length to check
  *
- * Return: integer length of string
+ * Return: integer length of the string
  */
 int _strlen(char *s)
 {
@@ -41,11 +41,11 @@ int _strcmp(char *s1, char *s2)
 }
 
 /**
- * starts_with - checks if needle starts with haystack
- * @haystack: string to search
+ * starts_with - checks if the needle starts with haystack
+ * @haystack: the string to search
  * @needle: the substring to find
  *
- * Return: address of next char of haystack or NULL
+ * Return: address of the next char of haystack or NULL
  */
 char *starts_with(const char *haystack, const char *needle)
 {

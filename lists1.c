@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * list_len - determines length of linked list
+ * list_len - determines the length of linked list
  * @h: pointer to first node
  *
- * Return: size of list
+ * Return: size of the list
  */
 size_t list_len(const list_t *h)
 {
@@ -56,7 +56,7 @@ char **list_to_strings(list_t *head)
 
 
 /**
- * print_list - prints all elements of a list_t linked list
+ * print_list - prints all the elements of a list_t linked list
  * @h: pointer to first node
  *
  * Return: size of list

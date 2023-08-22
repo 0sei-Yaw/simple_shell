@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * hsh - main shell loop
+ * hsh - the main shell loop
  * @info: the parameter & return info struct
  * @av: the argument vector from main()
  *
@@ -78,7 +78,7 @@ int find_builtin(info_t *info)
 }
 
 /**
- * find_cmd - finds a command in PATH
+ * find_cmd - finds a command in the PATH
  * @info: the parameter & return info struct
  *
  * Return: void
@@ -120,7 +120,7 @@ void find_cmd(info_t *info)
 }
 
 /**
- * fork_cmd - forks a an exec thread to run cmd
+ * fork_cmd - forks an exec thread to run cmd
  * @info: the parameter & return info struct
  *
  * Return: void

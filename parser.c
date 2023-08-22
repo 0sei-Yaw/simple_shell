@@ -23,12 +23,12 @@ int is_cmd(info_t *info, char *path)
 }
 
 /**
- * dup_chars - duplicates characters
+ * dup_chars - duplicates the characters
  * @pathstr: the PATH string
  * @start: starting index
  * @stop: stopping index
  *
- * Return: pointer to new buffer
+ * Return: pointer to the new buffer
  */
 char *dup_chars(char *pathstr, int start, int stop)
 {
@@ -43,7 +43,7 @@ char *dup_chars(char *pathstr, int start, int stop)
 }
 
 /**
- * find_path - finds this cmd in the PATH string
+ * find_path - find this cmd in the PATH string
  * @info: the info struct
  * @pathstr: the PATH string
  * @cmd: the cmd to find
